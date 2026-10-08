@@ -4,6 +4,20 @@ A small macOS menu bar app that tracks your work time per activity and makes you
 
 Start an activity, and Timekeeper counts your time. After each work block (50 min by default), a blurred full-screen break overlay covers every display until the break is over. You can see your totals for today, the week, the month and the year, broken down by activity.
 
+## Screenshots
+
+| Today | Stats | Settings |
+| :---: | :---: | :---: |
+| <img src="screenshots/today.png" width="260" alt="Today tab"> | <img src="screenshots/stats.png" width="260" alt="Stats tab"> | <img src="screenshots/settings.png" width="260" alt="Settings tab"> |
+
+- **Today:** today's work and break totals, when the next break is due, and progress toward the next long break (sessions completed out of 4). It has Pause and Reset buttons, buttons to start a short or long break right away, and the list of activities. The running activity is highlighted, and each one has a play/pause button.
+- **Stats:** totals for the week, month or year. A stacked bar chart breaks each day down by activity color, and below it each activity has a row with its total.
+- **Settings:** work block, break length and snooze length, launch at login, long breaks (their length and how often they come), your break message, and phone notifications.
+
+![Break overlay](screenshots/break-overlay.png)
+
+**Break overlay:** when a work block ends, every screen is blurred and shows your message, a progress bar and the countdown. You can snooze for the default time or a custom one, or skip the break. At the bottom you can start a long break instead, or pause Timekeeper.
+
 ## Features
 
 - **Menu bar timer.** A small robot icon shows today's work total while an activity runs.
